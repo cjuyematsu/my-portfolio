@@ -78,7 +78,7 @@ const PortfolioWebsite = () => {
     },
     {
       name: "Hoops Data",
-      duration: "May 2025 – July 2025",
+      duration: "May 2025 - July 2025",
       link: "https://hoopsdata.net/",
       description: [
         "Compiled career stats for all NBA players using Kaggle dataset of box scores",
@@ -104,7 +104,7 @@ const PortfolioWebsite = () => {
     },
     {
       name: "ASPC Website",
-      duration: "Dec 2024 – Present",
+      duration: "Dec 2024 - Present",
       link: "https://pomonastudents.org/",
       description: [
         "Developing and maintaining the official website for Pomona College student government",
@@ -117,7 +117,7 @@ const PortfolioWebsite = () => {
     },
     {
       name: "GitTempo",
-      duration: "Apr 2025 – May 2025",
+      duration: "Apr 2025 - May 2025",
       link: "https://gittempo.com/",
       description: [
         "Leveraged GitHub API to analyze commit patterns from public repositories",
@@ -130,7 +130,7 @@ const PortfolioWebsite = () => {
     },
     {
       name: "p-RoomMatch",
-      duration: "Sep 2024 – Dec 2024",
+      duration: "Sep 2024 - Dec 2024",
       description: [
         "Led team of 8 students across 5 colleges as Project Lead",
         "Built smart roommate-matching platform using AI clustering algorithms (k-means, hierarchical, GMM)",
@@ -143,7 +143,7 @@ const PortfolioWebsite = () => {
     },
     {
       name: "p-MarketForecast",
-      duration: "Feb 2025 – May 2025",
+      duration: "Feb 2025 - May 2025",
       link: "https://p-marketforecast-website.vercel.app/",
       description: [
         "Led team of 6 students evaluating ML models for financial market analysis",
@@ -157,7 +157,7 @@ const PortfolioWebsite = () => {
     },
     {
       name: "p-NXTPlay",
-      duration: "Feb 2024 – May 2024",
+      duration: "Feb 2024 - May 2024",
       description: [
         "Collaborated with team of 5 to build computer vision system for football analysis",
         "Implemented player tracking, team identification, and jersey number recognition",
@@ -190,7 +190,7 @@ const PortfolioWebsite = () => {
       roles: [
         {
           position: "Product Manager",
-          duration: "May 2025 – Present",
+          duration: "May 2025 - Present",
           description: [
             "Acting as technical liaison between student government and development team",
             "Contributing directly to codebase to develop, test, and deploy new features",
@@ -199,7 +199,7 @@ const PortfolioWebsite = () => {
         },
         {
           position: "Software Developer",
-          duration: "Dec 2024 – May 2025",
+          duration: "Dec 2024 - May 2025",
           description: [
             "Designed and developed web applications to improve student experience",
             "Built tools for academic planning and event management",
@@ -211,7 +211,7 @@ const PortfolioWebsite = () => {
     {
       company: "P-ai at the Claremont Colleges",
       position: "Project Lead / Software Engineer",
-      duration: "Sep 2024 – May 2025",
+      duration: "Sep 2024 - May 2025",
       description: [
         "Led p-RoomMatch project with 8 students across 5 colleges",
         "Directed p-MarketForecast research project with team of 6 students",
@@ -222,7 +222,7 @@ const PortfolioWebsite = () => {
     {
       company: "Acalynics",
       position: "Math, Physics, ACT/SAT Test Prep Tutor",
-      duration: "Aug 2022 – Dec 2024",
+      duration: "Aug 2022 - Dec 2024",
       description: [
         "Provided weekly tutoring sessions to high school students",
         "Taught subjects ranging from basic to AP-level Math and Physics",
@@ -323,10 +323,6 @@ const PortfolioWebsite = () => {
             <p className="text-lg">{aboutInfo.projects}</p>
             <p className="text-lg">{aboutInfo.tech}</p>
           </div>
-          
-          <div className="flex justify-center mt-12">
-            <ChevronDown className="w-8 h-8 text-blue-600 animate-bounce" />
-          </div>
         </div>
       </section>
 
@@ -348,7 +344,7 @@ const PortfolioWebsite = () => {
                 <div className="text-right mt-4 md:mt-0">
                   <p className="text-gray-600 flex items-center space-x-2">
                     <Calendar className="w-4 h-4" />
-                    <span>Aug 2022 – {education.graduation}</span>
+                    <span>Aug 2022 - {education.graduation}</span>
                   </p>
                 </div>
               </div>
