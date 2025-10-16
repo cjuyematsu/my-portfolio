@@ -24,7 +24,7 @@ export const projects: Project[] = [
     id: 'plottrip',
     name: 'PlotTrip',
     duration: 'July 2025 - August 2025',
-    link: 'link: path-chronicle.vercel.app',
+    link: 'https://path-chronicle.vercel.app/login',
     description: [
       'Building an interactive travel visualizer that plots trips on a 3D globe',
       'Supports multiple transportation modes (car, plane, train) with distance calculations',
