@@ -82,7 +82,7 @@ export const projects: Project[] = [
     name: 'ASPC Website',
     duration: 'Dec 2024 - Present',
     link: 'https://pomonastudents.org/',
-    image: '/projects/aspc-preview.png',
+    image: '/projects/ASPC-preview1.png',
     github: 'https://github.com/aspc/aspc-website-v2',
     description: [
       'Developing and maintaining the official website for Pomona College student government',
