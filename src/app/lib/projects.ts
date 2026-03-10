@@ -20,9 +20,9 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 'plottrip',
-    name: 'PlotTrip',
+    name: 'Trekt',
     duration: 'July 2025 - August 2025',
-    link: 'https://path-chronicle.vercel.app/login',
+    link: 'https://www.trekt.app/',
     image: '/projects/plottrip-preview.png',
     video: '/projects/plottrip-demo.mp4',
     github: 'https://github.com/cjuyematsu/PathChronicle',
