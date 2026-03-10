@@ -17,7 +17,7 @@ export default function HomePage() {
 
       <footer className="py-20 bg-gray-50 text-center">
         <p className="text-sm text-gray-600">
-          © 2024 Cole Uyematsu. All rights reserved.
+          &copy; {new Date().getFullYear()} Cole Uyematsu. All rights reserved.
         </p>
       </footer>
     </div>
