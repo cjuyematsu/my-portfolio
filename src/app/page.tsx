@@ -54,9 +54,7 @@ function HeroSection() {
         transition={{ duration: 0.8, delay: 0.4 }}
         className="text-xl md:text-2xl text-gray-600 text-center max-w-2xl"
       >
-        Full-Stack Developer
-        <br />
-        <span className="text-lg text-gray-500">CS & Math @ Pomona College &apos;26</span>
+        CS & Math @ Pomona College
       </motion.p>
 
       <motion.div
