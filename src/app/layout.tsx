@@ -45,6 +45,14 @@ export default function RootLayout({
                 GitHub
               </a>
               <a
+                href="/Cole_Uyematsu_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-gray-600 hover:text-gray-900 transition-colors"
+              >
+                Resume
+              </a>
+              <a
                 href="mailto:colejuyematsu@gmail.com"
                 className="text-sm text-gray-600 hover:text-gray-900 transition-colors"
               >
