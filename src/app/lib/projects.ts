@@ -80,7 +80,7 @@ export const projects: Project[] = [
   {
     id: 'aspc',
     name: 'ASPC Website',
-    duration: 'Dec 2024 - Present',
+    duration: 'Dec 2024 - May 2026',
     link: 'https://pomonastudents.org/',
     image: '/projects/ASPC-preview1.png',
     github: 'https://github.com/aspc/aspc-website-v2',
