@@ -61,7 +61,7 @@ function HeroSection() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 1 }}
-        className="absolute bottom-12 left-1/2 -translate-x-1/2"
+        className="absolute bottom-12 left-1/2 -translate-x-1/2 [@media(max-height:600px)]:hidden"
       >
         <div className="w-6 h-10 border-2 border-gray-400 rounded-full flex items-start justify-center p-2">
           <motion.div
@@ -110,7 +110,7 @@ function ProjectSection({ project }: { project: Project; index: number }) {
     <motion.section
       ref={ref}
       style={{ opacity }}
-      className="min-h-screen flex items-center py-10 px-6"
+      className="py-12 px-6"
       transition={{ ease: "easeInOut" }}
     >
       <div className="max-w-7xl mx-auto w-full">
