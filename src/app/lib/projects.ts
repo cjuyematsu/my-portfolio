@@ -8,6 +8,7 @@ export interface Project {
   github?: string;
   image?: string;
   video?: string;
+  screenshots?: string[];
   details?: {
     problem?: string;
     solution?: string;
@@ -18,6 +19,34 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+  {
+    id: 'pastpic',
+    name: 'PastPic',
+    duration: '2026 - Present',
+    screenshots: [
+      '/projects/pastpic-welcome.png',
+      '/projects/pastpic-bigwhite.png',
+      '/projects/pastpic-kanapali.png'
+    ],
+    description: [
+      'iOS app that resurfaces your old photos based on where you are—return to a place you photographed months or years ago and it shows you those memories',
+      'Indexes the photo library by location and date, with a background geofencing task that detects meaningful places even when the app is closed',
+      'Filters notifications so you only get pinged for genuinely old memories, not recent photos or everyday places like home and work',
+      'Live on TestFlight, heading to the App Store'
+    ],
+    tech: ['React Native', 'Expo', 'TypeScript', 'Geofencing', 'iOS'],
+    details: {
+      problem: 'Photos you took at a place are easy to forget, and nothing reconnects you to them when you return to where they happened.',
+      solution: 'A location-aware app that indexes your photo library and resurfaces old memories when you revisit the places you captured them.',
+      features: [
+        'Location- and date-based indexing of your photo library',
+        'Background geofencing that runs even when the app is closed',
+        'Smart notification filtering for genuinely old memories only',
+        'Excludes everyday places like home and work'
+      ],
+      outcome: 'Live on TestFlight and heading to the App Store.'
+    }
+  },
   {
     id: 'plottrip',
     name: 'Trekt',

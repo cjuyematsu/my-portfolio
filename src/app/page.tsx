@@ -129,6 +129,24 @@ function ProjectSection({ project }: { project: Project; index: number }) {
             className="relative"
             transition={{ ease: "easeInOut" }}
           >
+            {project.screenshots?.length ? (
+              <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
+                {project.screenshots.map((src, i) => (
+                  <div
+                    key={src}
+                    className="relative shrink-0 h-[420px] sm:h-[560px] aspect-[1170/2532] rounded-2xl overflow-hidden bg-black shadow-2xl"
+                  >
+                    <Image
+                      src={src}
+                      alt={`${project.name} screenshot ${i + 1}`}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 640px) 30vw, 280px"
+                    />
+                  </div>
+                ))}
+              </div>
+            ) : (
             <div className="relative aspect-video rounded-2xl overflow-hidden bg-black shadow-2xl">
               {project.video ? (
                 <video
@@ -166,6 +184,7 @@ function ProjectSection({ project }: { project: Project; index: number }) {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent pointer-events-none" />
               )}
             </div>
+            )}
 
             <div className="mt-4 flex items-center justify-between text-sm text-gray-500">
               <span>{project.duration}</span>
