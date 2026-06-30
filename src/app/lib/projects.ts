@@ -1,6 +1,7 @@
 export interface Project {
   id: string;
   name: string;
+  subtitle?: string;
   duration: string;
   description: string[];
   tech: string[];
@@ -22,7 +23,8 @@ export const projects: Project[] = [
   {
     id: 'pastpic',
     name: 'PastPic',
-    duration: '2026 - Present',
+    subtitle: 'In beta, expected July 2026',
+    duration: 'May 2026 - Present',
     screenshots: [
       '/projects/pastpic-welcome.png',
       '/projects/pastpic-bigwhite.png',

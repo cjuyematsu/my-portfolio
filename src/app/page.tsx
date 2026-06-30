@@ -122,6 +122,9 @@ function ProjectSection({ project }: { project: Project; index: number }) {
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
               {project.name}
             </h2>
+            {project.subtitle && (
+              <p className="mt-2 text-lg text-gray-500">{project.subtitle}</p>
+            )}
           </motion.div>
 
           <motion.div
