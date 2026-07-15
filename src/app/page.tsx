@@ -212,7 +212,7 @@ function ProjectSection({ project }: { project: Project; index: number }) {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center space-x-3 px-8 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors font-semibold text-lg"
               >
-                <span>Live</span>
+                <span>{project.linkLabel ?? 'Live'}</span>
                 <ExternalLink className="w-5 h-5" />
               </a>
             )}

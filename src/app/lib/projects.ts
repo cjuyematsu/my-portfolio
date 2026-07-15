@@ -6,6 +6,7 @@ export interface Project {
   description: string[];
   tech: string[];
   link?: string;
+  linkLabel?: string;
   github?: string;
   image?: string;
   video?: string;
@@ -25,6 +26,9 @@ export const projects: Project[] = [
     name: 'PastPic',
     subtitle: 'In beta, expected July 2026',
     duration: 'May 2026 - Present',
+    link: 'https://testflight.apple.com/join/13JV4aff',
+    linkLabel: 'Beta',
+    github: 'https://github.com/cjuyematsu/memory-lane',
     screenshots: [
       '/projects/pastpic-welcome.png',
       '/projects/pastpic-bigwhite.png',
