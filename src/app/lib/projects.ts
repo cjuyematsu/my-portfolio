@@ -31,8 +31,8 @@ export const projects: Project[] = [
     github: 'https://github.com/cjuyematsu/memory-lane',
     screenshots: [
       '/projects/pastpic-welcome.png',
-      '/projects/pastpic-bigwhite.png',
-      '/projects/pastpic-kanapali.png'
+      '/projects/pastpic-kanapali.png',
+      '/projects/pastpic-bigwhite.png'
     ],
     description: [
       'iOS app that resurfaces your old photos based on where you are—return to a place you photographed months or years ago and it shows you those memories',
